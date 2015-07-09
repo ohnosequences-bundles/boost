@@ -6,7 +6,7 @@ import ohnosequences.statika._, bundles._, instructions._
 case object boost extends Bundle() {
 
   def install: Results = {
-    // do someting here
+    Seq("yum", "install", "-y", "boost") ->-
     success(s"${bundleName} is installed")
   }
 
