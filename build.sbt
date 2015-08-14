@@ -1,7 +1,7 @@
 Nice.scalaProject
 
 name := "boost"
-organization := "ohnosequencesBundles"
+organization := "ohnosequences-bundles"
 description := "A bundle for boost tool"
 
 publishBucketSuffix := "era7.com"
